@@ -1,0 +1,242 @@
+body {   
+    background: url(/img/png/4c89ee69d701267a100d3a63dea041b3.jpg) no-repeat center top / cover;
+    padding: 0;
+	margin: 0;
+	font-size: 20px;
+} 
+
+@font-face {
+    font-family: "Roboto Condensed", sans-serif;
+    src: url(/fonts/roboto-condensed-v27-cyrillic_latin-regular.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Roboto Flex", sans-serif;
+    src: url(/fonts/roboto-flex-v26-cyrillic_latin-regular.woff2) format("woff2");
+  }
+  
+  body::-webkit-scrollbar {
+    width: 0.5em; /* ширина вертикальной полосы прокрутки */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* цвет полосы прокрутки */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: transparent; /* цвет фона полосы прокрутки */
+  }
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1841px;
+    margin: 0 auto;    
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.logo { 
+    margin-right:203px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    white-space: nowrap;
+    color: #545454;
+    font-size: 22px;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+}
+
+.menu li {
+    margin-right: 64px;
+    list-style-type: none;  
+}
+
+.envelope {
+    white-space: nowrap;
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    color: #333333;
+    font-size: 22px;
+    margin-left: 195px;
+}
+
+.envelope img {
+    margin-right: 20px;
+    display: inline;
+}
+
+.call {
+    white-space: nowrap;
+    font-family: "Roboto Flex";
+    font-weight: 800;
+    color: #333333;
+    font-size: 25px;
+    margin-left: 50px;
+    letter-spacing: 0.01em;    
+}
+
+.call img {
+    margin-right: 20px;
+    display: inline;
+}
+.navigation {
+        height: auto;
+        margin: auto;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 44px;
+}
+
+.offer p {
+    font-family: "Roboto Condensed";
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    opacity: 0.7;
+    font-weight: 300;
+    color: #222222;
+    word-spacing: 35px;
+    margin-left: 162px;
+    margin-top: 110px;
+}
+
+
+
+.offer h1 {
+    font-family: "Roboto Flex";
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-left: 162px;
+    white-space: nowrap;
+}
+
+.ball {
+    display: flex;
+    font-family: "Roboto Condensed";
+    color: #3D3D3D;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 225px;
+    margin-top: 30px;
+}
+
+.ball img {
+position: absolute;
+width: 16px;
+height: 16px;
+left: 165px;
+top: 470px;
+}
+
+.mouse {
+    position: absolute;
+width: 20.61px;
+height: 511.15px;
+left: 44.28px;
+top: 322.25px;
+}
+
+.calc {
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #232323;
+text-transform: uppercase;
+margin-left: 175px;
+margin-top:50px;
+background: none;
+}
+
+.button {
+    font-family: "Roboto Condensed";
+    font-size: 24;
+    text-decoration: none;
+    color: #FFFFFF;
+    position: absolute;
+    width: 353px;
+    height: 95px;
+    left: 562px;
+    top: 565px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #D13737;
+    border-radius: 5px;
+}
+
+.comm p {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #3D3D3D;
+    margin-left: 256px;
+}
+
+.arms {
+    position: absolute;
+    width: 1316px;
+    height: 881px;
+    left: 794px;
+    top: 206px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1920px;
+    height: 166px;
+    left: 0px;
+    top: 1085px;
+    background: #353535;
+  }
+
+.section p {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FFFFFF;
+} 
+
+.section {
+    width: 23%; 
+    border-right: 1px solid #656565;
+    padding: 10px;
+}
+
+.section:last-child {
+    border-right: none; 
+}
